@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es-co">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PROYECTO </title>
+    <link rel="stylesheet" href="style.css">
+    <img src="Logo.png">
+</head>
+
+<body>
+    <div class="container">
+        <h1> Encriptador de Texto </h1>
+        <p> Este es un programa para Encriptar y Desencriptar texto. </p>
+        <textarea id="inputText" placeholder="Escribe tu texto aquí..."></textarea>
+        <br>
+        <input type="number" id="shift" value="3" min="1" max="25">
+        <button onclick="encryptText()">Encriptar</button>
+        <button onclick="decryptText()">Desencriptar</button>
+        <h2>Texto encriptado/desencriptado:</h2>
+        <textarea id="outputText" readonly></textarea>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
